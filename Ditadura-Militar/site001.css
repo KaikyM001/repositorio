@@ -2,7 +2,7 @@
 
 
 :root{
---cor1:rgb(255, 255, 255);
+--cor1:rgb(255, 255, 255); 
 --cor2:hsl(0, 0%, 0%);
 --cor3:rgb(11, 194, 17);
 --cor4:rgb(0, 94, 255);
@@ -30,12 +30,11 @@ background-color: var(--cor2);
 
 header{
 background-image: linear-gradient(-45deg, rgb(0, 0, 0), rgb(34, 167, 1), rgb(0, 0, 0));
-height: 150px;
-font-family:'ditadura';
+height: 120px;
 text-align:center;
-font-size:60px;
-padding: 15px 0px 10px 0px;
-border-radius: 10px;
+font-size:40px;
+padding: 5px 0px 5px 0px;
+border-radius: 5px;
 border: 3px solid var(--cor2);
 }
 
@@ -49,6 +48,7 @@ padding: 5px;
 font-size:16px;
 border-radius: 10px;
 border: 3px solid var(--cor2);
+text-align:justify;
 
 }
 
@@ -80,7 +80,7 @@ justify-content: space-evenly;
 
 .main01{
 background-color: var(--cor5);
-height: 700px;
+height: 800px;
 width:600px;
 border-radius: 10px;
 border: 3px solid var(--cor2);
@@ -91,7 +91,7 @@ text-align: justify;
 
 .main02{
     background-color: var(--cor5);
-    height: 700px;
+    height: 800px;
     width:600px;
     border-radius: 10px;
     border: 3px solid var(--cor2);
@@ -104,7 +104,7 @@ text-align: justify;
 
 nav{
 background-color: var(--cor5);
-height: 130px;
+height: 150px;
 margin:5px 0px 5px 0px;
 border-radius: 10px;
 border: 3px solid var(--cor2);
@@ -123,7 +123,7 @@ border: 3px solid var(--cor2);
 footer{
     background-image: linear-gradient(-35deg, rgb(28, 95, 27), rgb(34, 167, 1), rgba(30, 180, 25, 0.767));
     background-color: var(--cor5);
-    height: 80px;
+    height: 120px;
     margin:5px 0px 0px 0px;
     text-align: justify;
     padding: 5px 10px 5px 10px;
